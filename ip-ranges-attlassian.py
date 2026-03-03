@@ -31,7 +31,7 @@ def prompt_aws_credentials():
     print("═" * 60)
     aws_access_key = input("  AWS Access Key ID     : ").strip()
     aws_secret_key = getpass.getpass("  AWS Secret Access Key : ")
-    aws_region     = input("  AWS Region [eu-west-1]: ").strip() or "eu-west-1"
+    aws_region     = input("  AWS Region [eu-south-2]: ").strip() or "eu-south-2"
     print("═" * 60 + "\n")
     session = boto3.Session(
         aws_access_key_id=aws_access_key,
