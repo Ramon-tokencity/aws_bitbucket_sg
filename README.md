@@ -233,7 +233,7 @@ Define el puerto objetivo (SSH/22) y la URL de la API pública de Atlassian que 
 Solicita interactivamente las credenciales AWS al usuario:
 - **AWS Access Key ID** — visible en pantalla
 - **AWS Secret Access Key** — oculta con `getpass` (no aparece en pantalla)
-- **AWS Region** — con valor por defecto `eu-west-1`
+- **AWS Region** — con valor por defecto `eu-south-2`
 
 Devuelve un objeto `boto3.Session` configurado con las credenciales proporcionadas. La sesión se usa después para crear el cliente EC2.
 
